@@ -26,7 +26,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        fxmlLoader.setLocation(getClass().getResource("/view/login.fxml"));
+        fxmlLoader.setLocation(getClass().getResource("/view/yourView.fxml"));
         rootNode = fxmlLoader.load();
         primaryStage.setTitle("login window");
         primaryStage.setScene(new Scene(rootNode));
