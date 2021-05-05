@@ -28,7 +28,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         fxmlLoader.setLocation(getClass().getResource("/view/yourView.fxml"));
         rootNode = fxmlLoader.load();
-        primaryStage.setTitle("login window");
+        primaryStage.setTitle("your title");
         primaryStage.setScene(new Scene(rootNode));
         primaryStage.show();
     }
